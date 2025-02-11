@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Apresentação - MOACIR SCHROEDER</title>
+</head>
+<body>
+    <header>
+        <H1>Moacir Schroeder</H1>
+        <nav> <!-- Seção de Navegação do site -->
+            <ul><!-- Lista Não Ordenada para links do nosso menu --> 
+            <li><a href="#sobremim">Sobre mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="https://www.google.com.br/" target="_blank">GOOgle</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- SEÇÃO SOBRE MIM -->
+    <section id="sobremim">
+        <h2>Sobre mim</h2>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGuQME-Zwk2eQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706440170348?e=1743033600&v=beta&t=-sKFbvpMcDqR3k-EmeUhg9YcTLsF-SZPUIz_zpKJjEQ" alt="IMAGEM PERFIL LINKEDIN">
+        <article>
+            <p>
+                Olá, me chamo Moacir, profissional da área de Suplly Chain em transição de carreira ... 
+            </p>
+        </article>
+    <aside>
+        <h3>HABILIDADES</h3>
+        <UL>
+            <LI>HTML</LI>
+            <LI>CSS</LI>
+            <LI>JavaScript</LI>
+        </UL>
+    </aside>
+    </section>
+
+<!-- SEÇÃO SOBRE PROJETOS -->    
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <article>
+            <h3>Portfólio</h3>
+            <p>Este é o meu primerio site elaborado, estudando FRONT-END.</p>
+        </article>
+    </section>
+
+<!-- SEÇÃO HABILIDADES -->
+    <section id="habilidades">
+        <H2>Habilidades e Tecnologias</H2>
+        <table border="1"> <!-- Inserção de TABELA -->
+            <thead> <!-- 1º linha da tabela - CABEÇALHO -->
+                <tr> <!-- Define a 1º da tabela - CABEÇALHO -->
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody> <!-- Corpo da tabela -->
+                <tr>
+                    <td>HTML</td> <!-- 1º linha de informações da tabela-->
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de páginas WEB semânticas e responsivas.</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiência com flexbox, GRID e animações CSS.</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+<!-- RODAPE / SEÇÃO CONTATO -->
+    <footer>
+        <p>Direitos reservados a Moacir Schroeder</p>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Tem um projeto em mente ?! Entre em contato</p><br>
+            <!--<address>
+                E-mail: <a href="mailto:moaschr@yahoo.com.br">moaschr@yahoo.com.br</a><br>
+                Telefone: <a href="tel:+5547999047865">47 99904-7865</a>
+            </address>-->
+
+            <!--Formulário de informações-->
+            <form action="">
+                <!--Nome de contato-->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br> 
+                <!--Atributo "required" é para deixar o campo com preenchimento obrigatório-->
+                
+                <!--E-mail de contato-->
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <!--Telefone de contato-->
+                <label for="telefone">Telefone:</label>
+                <input type="telefone" id="telefone" name="telefone"><br>
+
+                <!--Assunto de contato-->
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto"><!--Menu de opções-->
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outros">outros</option>
+                </select>
+                <br>
+                
+                <!--Campo da mensagem-->
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="5" required></textarea><br>
+                
+                <!--Checkbox newsletter-->
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter !? Fique por dentro.</label><br>
+
+                <!--Botão de enviar-->
+                <input type="submit" value="Enviar mensagem">
+            </form>
+        </section>
+
+    </footer>
+</body>
+</html>

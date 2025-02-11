@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Professor</title>
+</head>
+<body>
+    <table border="1" background>
+        <thead>
+            <h1>Cadastro de Professores</h1><br>
+            <tr>
+                <th><label for="nome"></label>Nome Completo</th>
+                <th><label for="email"></label>E-Mail</th>
+                <th><label for="idade"></label>Idade (Anos)</th>
+                <th><label for="turnosdisponiveis"></label>Candidatura Matéria</th>
+                <th><label for="escolaridade"></label>Escolaridade</th>
+                <th><label for="descricao"></label>Fale sobre você</th>
+            </tr>
+            <form action="">
+                <tbody>
+                    <tr>
+                        <td><input type="text" id="nome" required></td>
+                        <td><input type="email" id="email" required></td>
+                        <td><input type="number" id="idade"></td>
+                        <td><select name="turnosdisponiveis" id="turnosdisponiveis" required>
+                            <option value="matematica">Matemática</option>
+                            <option value="portugues">Português</option>
+                            <option value="biologia">Biologia</option>
+                            <option value="ciencias">Ciências</option>
+                            <option value="historia">historia</option>
+                            <option value="geografia">Geografia</option>
+                            <option value="artes">artes</option>
+                        </select></td>
+                        <td><select nome=escolaridade id="escolaridade" required>
+                            <option value="superiorcompleto">Superior Completo</option>
+                            <option value="cursandomestrado">Cursando Mestrado</option>
+                            <option value="mestradocompleto">Mestrado Completo</option>
+                            <option value="cursandodoutorado">Cursando Doutorado</option>
+                            <option value="doutoradocompleto">Doutorado Completo</option>
+                        </select></td>
+                        <td><textarea name="descricao" id="descricao" cols="30" rows="3" maxlength="200" required></textarea></td>
+                    </tr>
+                </tbody>
+                <tr>
+                    <td><input type="submit" value="Enviar Mensagem"></td>
+                </tr>
+            </form>
+        </thead>
+    </table>
+</body>
+</html>

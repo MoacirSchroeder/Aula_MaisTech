@@ -1,0 +1,27 @@
+/*Estilos para serem usados na página de exercício com CSS GRID */
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem-flutuante {
+    float: left; /*LEFT: o elemento fica a esquerda da página // RIGHT: fica na direita da página */
+    width: 150px; /* tamanho do elemento */
+    margin: right 20px; /*Todo elemento que ficar a  direita da imagem, estará afastada 20px dela */
+}
+
+.subtitulo {
+    clear: both; /* LIMPA a configuração do elemento FLOAT anterior, considerando os atributos configurados para ele */
+}
+    
+.header {
+    background-color: yellow;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    border: solid 1px #000;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
