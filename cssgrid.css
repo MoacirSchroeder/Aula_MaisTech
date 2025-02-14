@@ -66,6 +66,8 @@ body {
 
 .sidebar {
     background-color: blue;
+    font-style: italic;
+    color: yellow;
     padding: 20px;
 }
 
@@ -74,4 +76,8 @@ body {
     padding: 20px;
 }
 
-/* VIDEO PARADO 38M59S
+.container_repeat {
+    
+}
+
+/* VIDEO PARADO 38M59S */
