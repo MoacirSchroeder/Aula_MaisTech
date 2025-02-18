@@ -1,0 +1,16 @@
+/* ARQUIVO CSS PARA CONFIGURACAO DO EXERCÍCIO FINAL DE CSS GRID */
+body {
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+.cabecalho {
+    position: sticky;
+    position: -webkit-sticky;
+    border: solid 2px yellow;
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    padding: 15px;
+}
