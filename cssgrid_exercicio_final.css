@@ -14,3 +14,34 @@ body {
     font-size: 45px;
     padding: 15px;
 }
+
+.menu-principal {
+
+}
+.grid.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 15mm;
+    background-color: blue;
+    border: solid 2px red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.coluna-esquerda {
+    background-color: black;
+}
+
+.coluna-direita {
+    background-color: green;
+}
+
+.rodade-pagina {
+    border: solid 3px violet;
+    background-color: blue;
+    padding: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+
+}
